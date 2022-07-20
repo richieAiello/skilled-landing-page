@@ -8,7 +8,7 @@ import businessIcon from '../../assets/icon-business.svg';
 
 const Course = props => {
   return (
-    <section className="bg-gradient-to-b from-white to-white-blue">
+    <section className="bg-gradient-to-b from-white to-white-blue pb-[5.375rem]">
       <div className="container grid gap-y-10">
         <CourseHeading />
         <CourseCard

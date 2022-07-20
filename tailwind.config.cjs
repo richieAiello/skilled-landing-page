@@ -17,10 +17,9 @@ module.exports = {
         'white-blue': '#f0f1ff',
       },
       gradientColorStops: {
-        'grad-pink-1': '#F02AA6',
-        'grad-pink-2': '#FF6F48',
-        'grad-purple-1': '#4851FF',
-        'grad-purple-2': '#FF6F48',
+        'grad-pink': '#F02AA6',
+        'grad-orange': '#FF6F48',
+        'grad-blue': '#4851FF',
       },
 
       fontFamily: {

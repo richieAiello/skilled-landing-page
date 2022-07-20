@@ -10,7 +10,7 @@ const HeroContext = props => {
       </p>
       <a
         href="#"
-        className="text-white bg-gradient-to-t from-grad-pink-1 to-grad-pink-2 
+        className="text-white bg-gradient-to-t from-grad-pink to-grad-orange 
         font-bold rounded-full px-9 py-4 inline-block duration-300 
         hover:text-blue hover:opacity-50
         focus:text-blue focus:opacity-50"
