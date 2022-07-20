@@ -4,7 +4,7 @@ const Header = props => {
   return (
     <header
       className="container flex justify-between items-center mt-4 mb-[2.375rem]
-     md:mt-6 md:mb-[6.25rem]"
+     md:mt-6 md:mb-[6.25rem] lg:mb-[10.75rem]"
     >
       <Logo />
       <a
