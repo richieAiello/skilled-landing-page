@@ -3,7 +3,7 @@ import { ReactComponent as Logo } from '../../assets/logo-light.svg';
 const Footer = props => {
   return (
     <footer className="bg-blue py-9">
-      <div className="container flex justify-between items-center">
+      <div className="container flex flex-col space-y-12 justify-between items-center sm:flex-row sm:space-y-0">
         <Logo />
         <a
           href="#"

@@ -1,7 +1,7 @@
 const CourseHeading = props => {
   return (
     <div
-      className="w-full min-h-[120px] rounded-[10px] pt-6 pb-8 px-7
+      className="max-w-md min-h-[120px] rounded-[10px] pt-6 pb-8 px-7 mx-auto
       bg-gradient-to-t from-grad-pink to-grad-orange"
     >
       <h2 className="text-white text-2xl font-extrabold">
