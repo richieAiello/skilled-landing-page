@@ -4,7 +4,7 @@ const CourseCard = props => {
       <h3 className="text-blue font-extrabold text-[1.25rem] leading-[1.575rem] capitalize mb-4">
         {props.heading}
       </h3>
-      <p className="mb-6">{props.text}</p>
+      <p className="mb-6  max-w-md">{props.text}</p>
       <a
         href="#"
         className="text-hot-pink text-lg font-bold capitalize duration-300 hover:text-pink focus:text-pink"
@@ -14,6 +14,7 @@ const CourseCard = props => {
       <img
         src={props.src}
         className="absolute bottom-[227px] left-7 w-14 h-14"
+        loading="lazy"
       />
     </div>
   );

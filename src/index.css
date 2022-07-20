@@ -21,7 +21,10 @@
   line-height: 1.625rem;
 }
 
-.container {
-  width: calc(100% - 2rem);
-  margin-inline: auto;
+@layer components {
+  .container {
+    margin-inline: auto;
+    width: min(100% - 2rem, 689px);
+    @apply md:w-[689px] lg:w-[1110px];
+  }
 }

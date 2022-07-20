@@ -2,6 +2,10 @@
 module.exports = {
   content: ['./index.html', './src/**/*.{js,jsx}'],
   theme: {
+    screens: {
+      md: '768px',
+      lg: '1440px',
+    },
     extend: {
       colors: {
         blue: '#13183F',
@@ -18,10 +22,7 @@ module.exports = {
         'grad-purple-1': '#4851FF',
         'grad-purple-2': '#FF6F48',
       },
-      screens: {
-        md: '768px',
-        lg: '1440px',
-      },
+
       fontFamily: {
         serif: ['Plus Jakarta Sans', 'sans-serif'],
       },

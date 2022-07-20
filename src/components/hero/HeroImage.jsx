@@ -13,6 +13,7 @@ const HeroImage = props => {
         src="./hero-mobile.webp"
         alt="29,000 members and 1,451 course hours."
         className="hero__image mx-auto"
+        loading="lazy"
       />
     </picture>
   );
