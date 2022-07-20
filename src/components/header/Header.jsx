@@ -10,7 +10,7 @@ const Header = props => {
       <a
         href="#"
         className="text-white font-bold leading-7 bg-blue px-6 py-2.5 rounded-full 
-        cursor-pointer inline-block duration-300 
+        cursor-pointer inline-block duration-300 relative z-10
         hover:bg-light-blue focus:bg-light-blue"
       >
         Get Started
