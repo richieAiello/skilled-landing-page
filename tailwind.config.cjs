@@ -25,22 +25,6 @@ module.exports = {
       fontFamily: {
         serif: ['Plus Jakarta Sans', 'sans-serif'],
       },
-      fontSize: {
-        hero: [
-          '2.5rem',
-          {
-            lineHeight: '3.15rem',
-            fontWeight: 800,
-          },
-        ],
-        'hero-lg': [
-          '3.5rem',
-          {
-            lineHeight: '4.41rem',
-            fontWeight: 800,
-          },
-        ],
-      },
     },
   },
   plugins: [],
