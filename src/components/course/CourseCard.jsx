@@ -1,6 +1,9 @@
 const CourseCard = props => {
   return (
-    <div className="relative max-w-md min-h-[259px] bg-white rounded-[10px] pt-14 pb-8 px-7 mx-auto">
+    <div
+      className="relative max-w-md min-h-[260px] bg-white rounded-[10px] pt-14 pb-8 px-7 mx-auto
+     md:max-w-full md:m-[unset]"
+    >
       <h3 className="text-blue font-extrabold text-[1.25rem] leading-[1.575rem] capitalize mb-4">
         {props.heading}
       </h3>
