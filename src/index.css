@@ -14,3 +14,8 @@
   font-size: 1rem;
   line-height: 1.625rem;
 }
+
+.container {
+  width: calc(100% - 2rem);
+  margin-inline: auto;
+}
