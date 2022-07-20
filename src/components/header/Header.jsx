@@ -2,7 +2,10 @@ import { ReactComponent as Logo } from '../../assets/logo-dark.svg';
 
 const Header = props => {
   return (
-    <header className="container flex justify-between items-center mt-4 mb-[2.375rem]">
+    <header
+      className="container flex justify-between items-center mt-4 mb-[2.375rem]
+     md:mt-6 md:mb-[6.25rem]"
+    >
       <Logo />
       <a
         href="#"

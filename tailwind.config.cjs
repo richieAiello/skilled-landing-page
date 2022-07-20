@@ -1,8 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  corePlugins: {
+    container: false,
+  },
   content: ['./index.html', './src/**/*.{js,jsx}'],
   theme: {
     screens: {
+      sm: '375px',
       md: '768px',
       lg: '1440px',
     },
@@ -21,7 +25,6 @@ module.exports = {
         'grad-orange': '#FF6F48',
         'grad-blue': '#4851FF',
       },
-
       fontFamily: {
         serif: ['Plus Jakarta Sans', 'sans-serif'],
       },

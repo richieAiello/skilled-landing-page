@@ -4,7 +4,7 @@ import '../../styles/hero.css';
 
 const Hero = props => {
   return (
-    <section className="container mb-16">
+    <section className="container mb-16 relative md:flex md:mb-[11.625rem]">
       <HeroContext />
       <HeroImage />
     </section>

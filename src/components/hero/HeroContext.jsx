@@ -1,6 +1,6 @@
 const HeroContext = props => {
   return (
-    <div className="mb-[2.875rem] max-w-md">
+    <div className="mb-[2.875rem] max-w-md mx-auto md:m-0 md:max-w-[398px]">
       <h1 className="text-blue text-[2.5rem] font-extrabold leading-[3.15rem] mb-[1.625rem]">
         Maximize skill, minimize budget
       </h1>
