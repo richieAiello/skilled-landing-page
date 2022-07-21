@@ -13,14 +13,15 @@ const CourseCard = props => {
       <p className="text-grey mb-6">{props.text}</p>
       <a
         href="#"
-        className="text-hot-pink text-lg font-bold capitalize duration-300 hover:text-pink focus:text-pink"
+        className="text-hot-pink text-lg font-bold 
+        capitalize duration-300 hover:text-pink focus:text-pink"
       >
         Get Started
       </a>
       <img
         src={props.src}
+        alt=""
         className="absolute top-[-24px] left-7 w-14 h-14"
-        loading="lazy"
       />
     </div>
   );
