@@ -28,6 +28,9 @@ module.exports = {
       fontFamily: {
         serif: ['Plus Jakarta Sans', 'sans-serif'],
       },
+      boxShadow: {
+        card: '0 25px 50px rgba(6, 22, 141, 0.042)',
+      },
     },
   },
   plugins: [],
